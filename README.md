@@ -8,7 +8,7 @@
   <li>CSS</li>
 </ul>
 
-<h3>Link do Deploy:</h3> <a href="https://vercel.com/msemanakas-projects/landing-page-universe">landing-page-universe</a> <br>
+<h3>Link do Deploy:</h3> <a href="https://landing-page-universe.vercel.app/">landing-page-universe</a> <br>
 
 <br>
 
