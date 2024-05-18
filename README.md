@@ -10,3 +10,5 @@
 
 <h3>Link do Deploy:</h3>
 <a href="https://vercel.com/msemanakas-projects/landing-page-universe">landing-page-universe</a>
+
+![image](https://github.com/msemanaka/landing_page/assets/156385428/0cc51f95-02bb-4cfd-8e30-85925fe72277)
