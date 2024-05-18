@@ -4,75 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>Universe</title>
 </head>
 
 <body>
     <header>
-        <span>
-            Universe
-        </span>
         <nav>
-            <ul>
-                <li>Home</li>
-                <li>Sobre</li>
-                <li>Contate Me</li>
+
+            <span>
+                Universe
+            </span>
+
+            <ul class="menu">
+                <li><a href="#home" class="nav-links">Home</a></li>
+                <li><a href="#sobre" class="nav-links">Sobre</a></li>
+                <li><a href="#contato" class="nav-links">Contato</a></li>
             </ul>
+            
         </nav>
     </header>
 
     <main>
-        <section id="home">
-            <h4>
-                Bem Vindo a um Novo Universo
-            </h4>
-            <h2>
-                Diferentes mundos para diferentes pessoas
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eius beatae dignissimos distinctio
-                repudiandae harum voluptas quia, qui vitae optio neque laborum quis fugiat nobis suscipit quasi sunt,
-                minus ex?
-            </p>
-            <button>
-                Explore
-            </button>
-            <img src="/assets/astronauta.svg" alt="Uma foto de um capacete de astronauta flutuando no espaço.">
+        <section class="first-section">
+
+            <div>
+                <h4>Bem Vindo a um Novo Universo!</h4>
+                <h2>Diferentes mundos para <br> diferentes pessoas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eius beatae dignissimos distinctio
+                    repudiandae harum voluptas quia, qui vitae optio neque laborum quis fugiat nobis suscipit quasi sunt,
+                    minus ex?</p>
+                <a href="#sobre"><button class="btn-action">Explore</a></button></a>
+            </div>
+
+            <img class="img-gif" src="/assets/img/astronauta.svg" alt="Uma foto de um capacete de astronauta flutuando no espaço.">
+
         </section>
 
         <section id="sobre">
             <img src="" alt="">
             <h2>Quem sou eu?</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptas, magni obcaecati aut mollitia atque recusandae minus accusamus inventore eum incidunt sapiente consequatur, eos autem consequuntur quae ab? Officia, dolore.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptas, magni obcaecati aut mollitia
+                atque recusandae minus accusamus inventore eum incidunt sapiente consequatur, eos autem consequuntur
+                quae ab? Officia, dolore.
             </p>
-            <button>Github</button>
-            <p>908 Seguidores</p>
-            <p>140 Repositórios</p>
         </section>
 
         <section id="contato">
-            <h2>Me Contate</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae neque sit facere illo obcaecati, blanditiis et officiis praesentium repellendus laborum mollitia, non inventore suscipit similique excepturi ratione aliquid laboriosam eaque?
-            </p>
-            <ul>
-                <li><img src="/assets/linkedin.svg" alt="Logotipo Linkedin"></li>
-                <li><img src="/assets/github.svg" alt="Logotipo GitHub"></li>
-                <li><img src="/assets/instagram.svg" alt="Logotipo Instagram"></li>
-            </ul>
+            <div class="info-contato">
+                <h2>Entre em contato comigo:</h2>
+                <p>Quer saber mais sobre minha trajetória ou compartilhar ideias? Preencha o formulário e me envie uma mensagem.</p>
+
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/msemanaka/"><img src="/assets/img/linkedin.svg" alt="Logo do LinkedIn"></a></li>
+                    <li><a href="https://github.com/msemanaka"><img src="/assets/img/github.svg" alt="Logo do Github"></a></li>
+                </ul>
+
+            </div>
 
             <form>
-                <label>Nome</label>
-                <input type="text" name="fname" id="fname">
-                <label>E-mail</label>
-                <input type="email" name="email" id="email">
-                <label>Assunto</label>
-                <input type="text" name="assunto" id="assunto">
-                <label>Mensagem</label>
-                <input type="text" name="mensagem" id="mensagem">
-                <button>Enviar</button>
+                <label>Nome:</label>
+                <input type="text" required>
+
+                <label>Email:</label>
+                <input type="email" required>
+
+                <label>Assunto:</label>
+                <input type="text" required>
+
+                <label>Mensagem:</label>
+                <textarea rows="3" required></textarea>
+                <button type="submit" class="btn-action">Enviar</button>
             </form>
+        </section>
         </section>
     </main>
 
