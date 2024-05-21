@@ -1,5 +1,5 @@
 <h1>Minha primeira Landing Page</h1>
-<p>Landing Page desenvolvida com base nos Projetos da Generation Brasin, onde usei conceitos de HTML e CSS. O objetivo era tentar reproduzir a landing page através de um arquivo em PDF, usando os conceitos aprendidos nas aulas.</p>
+<p>Landing Page desenvolvida com base nas aulas da Generation Brasil, onde usei conceitos de HTML e CSS. O objetivo era tentar reproduzir a landing page através de um arquivo em PDF, usando os conceitos aprendidos nas aulas.</p>
 
 <h3>Ferramentas utilizadas:</h3>
 
